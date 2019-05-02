@@ -1,17 +1,23 @@
 Rodar o cliente:
+
 instale as dependencias com yarn add [dependencia]
 Dependencias:
 bootstrap react react-bootstrap react-dom react-router react-router-dom axios react-scripts
 
 yarn start
 
+===============================================================================
 Rodar o Backend:
+
 abra a solucao no visual studio e rode no IISExpress
+
 cliente espera servidor no http://localhost:58482
 
 SQL Server:
-Crie database LibraryDB
-============================================================================================================
+
+Crie Database LibraryDB
+
+===============================================================================
 
 Backend(LibraryBackend):
 * uso de Code First
@@ -21,7 +27,8 @@ Backend(LibraryBackend):
 * Modelos de transferencia de dados para serem trocados entre cliente e servidor
 
 
-==============================================================================================================
+===============================================================================
+
 Requisitos Funcionais
 CRUD:
 - O sistema deverá listar os livros ordenados de forma ascendente pelo título; 
@@ -39,4 +46,4 @@ CRUD:
 
 - O sistema não deverá permitir inserir o mesmo número de exemplar para livros diferente;
 
-- O sistema não deverá permitir inserir um exemplar com o mesmo número;
+- O sistema não deverá permitir inserir um exemplar com o mesmo número
