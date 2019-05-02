@@ -1,0 +1,55 @@
+Cenário: 
+Uma livraria da cidade teve um aumento no número de seus exemplares e está com um problema para identificar todos os livros que possui. Para ajudar a livraria foi solicitado a você desenvolver uma aplicação web para gerenciar estes exemplares. 
+ 
+Requisitos Funcionais:CRUD:
+- O sistema deverá listar os livros ordenados de forma ascendente pelo título; 
+- O sistema deverá adicionar um novo livro; 
+- O sistema deverá editar um livro;
+- O sistema deverá excluir um livro;- O sistema não deverá permitir inserir um livro com o mesmo título;exemplar:
+- O sistema deverá permitir adicionar mais de um exemplar por livro;
+- O sistema não deverá permitir inserir o mesmo número de exemplar para livros diferente;
+- O sistema não deverá permitir inserir um exemplar com o mesmo número;
+ 
+Requisitos Técnicos:
+# Frontend:
+- SPA;
+- Utilizar algum framework MV*, tais como: Angular ou React;
+- Typescript;
+
+# Backend;
+- DDD;
+- API .NET CORE 2.1 ou superior;
+- EF Core 2.1 ou superior;
+- SQL Server 2017 ou superior;
+
+# Desejável:
+- Utilização de design patterns e boas práticas;
+- Cobertura de testes em torno de 80%;
+- Implementação de Cache ou CQRS;
+
+Entregável:
+	Você deve entregar um conjunto de artefatos, de acordo com o nível de complexidade que achar
+melhor. A seguir, os níveis de complexidade e seus respectivos entregáveis:
+
+# Fácil
+- Disponibilizado no GitHub;
+- Implementação dos requisitos funcionais;
+- Instruções para executar;
+
+# Médio
+- Disponibilizado no GitHub;
+- Implementação dos requisitos funcionais;
+- Implementação dos requisitos técnicos;
+- Instruções para executar;
+- Relatório descritivo da implantação do design do código;
+
+# Difícil
+- Disponibilizado no GitHub;
+- Implementação dos requisitos funcionais;
+- Implementação dos requisitos técnicos e desejáveis;
+- Instruções para executar;
+- Relatório descritivo da implantação do design do código;
+- Deve possuir uma versão publicada na nuvem;
+- Os testes automatizados devem ser executados por algum modelo de integração contínua; 
+
+
